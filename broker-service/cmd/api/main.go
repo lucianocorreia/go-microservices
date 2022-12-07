@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	webport = "90"
+	webport = "80"
 )
 
 type Config struct{}
