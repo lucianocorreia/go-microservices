@@ -23,6 +23,7 @@ func (app *Config) routes() http.Handler {
 	router.Use(middleware.Heartbeat("/ping"))
 
 	router.Post("/", app.Broker)
+	router.Post("/handler", app.HandleSubmission)
 
 	return router
 }
