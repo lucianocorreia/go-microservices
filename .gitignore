@@ -6,6 +6,7 @@
 *.dylib
 
 *.DS_store
+db-data/
 
 # Test binary, built with `go test -c`
 *.test
@@ -18,3 +19,4 @@
 
 frontApp
 brokerApp
+authApp
