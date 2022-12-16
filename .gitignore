@@ -21,3 +21,5 @@ frontApp
 brokerApp
 authApp
 loggerServiceApp
+mailApp
+listnerApp
