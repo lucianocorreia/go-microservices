@@ -22,4 +22,4 @@ brokerApp
 authApp
 loggerServiceApp
 mailApp
-listnerApp
+listenerApp
